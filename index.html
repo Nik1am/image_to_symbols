@@ -1,0 +1,17 @@
+<head>
+    <title>Image to ascii</title>
+    <style>
+        #result_element{
+            white-space: pre;
+            font-size: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./main.js"></script>
+    <script src="./interface.js"></script>
+    <input type="file" accept="image/png, image/jpeg" onchange="read(this)">
+    <input type="checkbox" id="do_invert"> Invert?
+    <div id="result_element">Result</div>
+</body>
